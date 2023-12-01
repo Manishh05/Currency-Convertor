@@ -1,0 +1,84 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7) ), url(img.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+   
+body{
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+   
+.container{
+     background-color:#ffffff;
+     padding: 10px 24px;
+     border-radius: 20px;
+     width: 490px;
+ }
+   
+h1{
+     color:rgb(0, 0, 0);
+     text-align: center;
+     margin-bottom: 0.5em;
+     font-family: sans-serif;
+}
+.container .box{
+     width: 100%;
+     display: flex;
+}
+.box div{
+     width: 100%;
+}
+   
+ select{
+     width: 95%;
+     height: 40px;
+     font-size: 1.2em;
+     cursor: pointer;
+     background-color:rgb(248, 127, 83);
+     outline: none;
+     color: black;
+     margin: 0.2em 0;
+     padding: 0 1em;
+     border-radius: 10px;
+     border: none;
+}
+   
+   
+input{
+     width: 80%;
+     height: 40px;
+     font-size: 1em;
+     margin: 0.2em 0;
+     border-radius: 10px;
+     border: none;
+     background:rgb(185, 181, 181);
+     outline: none;
+     padding: 0 1em;
+}
+   
+.btn{
+     display:flex;
+     justify-content: center;
+}
+   
+button{
+     width: 50%;
+     height: 40px;
+     background-color:#ffc400;
+     color: #102770;
+     border-radius: 10px;
+     border: none;
+     cursor: pointer;
+     font-size: 1em;
+     margin: 0.5em 0;
+   
+ }

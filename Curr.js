@@ -26,7 +26,7 @@ button.addEventListener('click', ()=>{
         let inputVal = input.value
 
     if(curr1===curr2)
-   error.innerHTML = 'choose diffrent type usd'
+  alert('Choose Diffrent Type of USD')
 else
     convert(curr1,curr2,inputVal)
 })

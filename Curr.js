@@ -33,13 +33,14 @@ else
  
 function convert(curr1,curr2,inputVal){
     const host = 'api.frankfurter.app';
-fetch(`https://${host}/latest?amount=${inputVal}&from=${curr1}&to=${curr2}`)
+    fetch(`https://${host}/latest?amount=${inputVal}&from=${curr1}&to=${curr2}`)
   .then(resp => resp.json())
   .then((data) => {
     document.getElementById('result').value =(Object.values(data.rates)[0])
-    
+    console.log(data)
   });
-}
+  
+ }
 
 
 
